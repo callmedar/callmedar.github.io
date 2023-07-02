@@ -10,16 +10,16 @@ style_urls = [
 ]
 
 [meta]
-title = "~/Rusty!nk"
-description = "Blazing fast static site generator written in Rust"
+title = "About this Site"
+description = "This site written in Rust, use rustyink as static site generator, and hosting in netlify. All konten create by writer with Neovim text editor via the Arch Linux operating system"
 og_image_url = "https://rustyink.cli.rs/images/og.png"
-base_url = "https://rustyink.cli.rs"
+base_url = "https://syuhendar.netlify.app"
 
 [navigation]
 links = [
-    { label = "~/", url = "/" },
-    { label = "GitHub", url = "https://github.com/arjunkomath/rustyink" },
-    { label = "Twitter", url = "https://twitter.com/arjunz" },
-    { label = "Blog", url = "/blog/" },
+    { label = "Home", url = "/" },
     { label = "About", url = "/about/" },
+    { label = "Blog", url = "/blog/" },
+    { label = "GitHub", url = "https://github.com/syuhendar729" },
+    { label = "Instagram", url = "https://instagram.com/syuhendar729" },
 ]
