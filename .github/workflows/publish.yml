@@ -26,8 +26,8 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      # url: ${{ steps.deployment.outputs.page_url }}
-      url: https://callmedar.github.io/_site
+      url: ${{ steps.deployment.outputs.page_url }}
+      # url: https://callmedar.github.io/_site
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
