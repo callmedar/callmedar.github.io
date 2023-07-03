@@ -1,8 +1,8 @@
-> This site build in Rust Ecosystem.
+> This site build in Rust ecosystem.
 <br>Use Rusty!nk as Static Site Generator. 
 <br>Hosting in GitHub Pages. 
-<br>What you see here written in MarkDown file.
-<br>All content write by writer with Neovim text editor via the Artix Linux operating system
+<br>What you see here written in Markdown file.
+<br>All content write by writer with Neovim text editor via the Artix Linux operating system.
 
 ```rust
 fn main() {
@@ -12,6 +12,6 @@ fn main() {
 ```
 
 <br><br>
-- This website is currently under development. Let me know if you find a bug !!!
-<br>Thank you....
+This website is currently under development. Let me know if you find a bug!!
+<br>Thank you!
 
