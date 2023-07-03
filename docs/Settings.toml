@@ -11,7 +11,7 @@ style_urls = [
 
 [meta]
 title = "About this Site"
-description = "This site written in Rust, use rustyink as static site generator, and hosting in netlify. All konten create by writer with Neovim text editor via the Arch Linux operating system"
+description = ""
 og_image_url = "https://callmedar.github.io/blog/images/og.png"
 base_url = "https://callmedar.github.io"
 

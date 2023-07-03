@@ -2,15 +2,29 @@
   --spacing: 0.75rem;
 }
 
-[data-theme="light"],
-:root:not([data-theme="dark"]) {
+[data-theme="dark"],
+:root:not([data-theme="light"]) {
   /* --font-family: "Fira Sans", sans-serif; */
-  --card-background-color: var(--background-color);
-  --card-box-shadow: none;
+	--background-color: #32302f;
+	--card-background-color: var(--background-color);
+	--card-box-shadow: none;
 }
 
+
 article {
-  padding: calc(var(--block-spacing-vertical) / 2) 0;
+	padding: calc(var(--block-spacing-vertical) / 2) 0;
+}
+
+a {
+	color: #ebdbb2;
+}
+
+article > footer {
+	background-color: #282828;
+}
+
+article > header {
+	background-color: #282828;
 }
 
 article > header > h2,
@@ -18,8 +32,13 @@ article > header > p {
   margin-bottom: 0;
 }
 
+blockquote {
+  border-left: 0.25rem solid #504945;
+}
+
 blockquote p {
   margin: 0;
+  /* background-color: #928374; */
 }
 
 pre {
@@ -29,4 +48,5 @@ pre {
 code {
   font-family: "Fira Code", monospace !important;
   font-size: 0.8rem !important;
+  background-color: #282828;
 }

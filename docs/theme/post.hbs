@@ -1,25 +1,25 @@
 <article>
-  <header>
-    {{#if author}}
-      <p>
-        {{#if author_link}}
-		<small>=> Written by <a href="{{author_link}}">{{author}}</a></small>
-        {{else}}
-		<small>=> Written by {{author}}</small>
-        {{/if}}
-      </p>
-    {{/if}}
+	<header>
+		{{#if author}}
+			<p>
+				{{#if author_link}}
+				<small>=> Written by <a href="{{author_link}}">{{author}}</a></small>
+				{{else}}
+				<small>=> Written by {{author}}</small>
+				{{/if}}
+			</p>
+		{{/if}}
+		{{#if date_published}}
+			<p><small>=> {{date_published}}</small></p>
+		{{/if}}
+	</header>
 
-    {{#if date_published}}
-	<p><small>=> {{date_published}}</small></p>
-    {{/if}}
-  </header>
-
-  {{{body}}}
+	{{{body}}}
 
   {{#if some_data}}
     <footer><small>
-        {{some_data}}
+		{{some_data}} <br> <br>
+        {{tambahan1}}
       </small></footer>
   {{/if}}
 </article>
