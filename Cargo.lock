@@ -197,6 +197,41 @@ dependencies = [
 ]
 
 [[package]]
+name = "blog"
+version = "0.0.1"
+dependencies = [
+ "anyhow",
+ "async-recursion",
+ "axum",
+ "chrono",
+ "clap",
+ "config",
+ "directories",
+ "fs_extra",
+ "futures-util",
+ "handlebars",
+ "html-minifier",
+ "md-5",
+ "notify",
+ "notify-debouncer-mini",
+ "owo-colors",
+ "pulldown-cmark",
+ "rayon",
+ "regex",
+ "reqwest",
+ "serde",
+ "serde_json",
+ "serde_yaml",
+ "sitewriter",
+ "slugify",
+ "tokio",
+ "tokio-tungstenite",
+ "toml 0.7.5",
+ "tower-http",
+ "walkdir",
+]
+
+[[package]]
 name = "bumpalo"
 version = "3.13.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -1670,41 +1705,6 @@ name = "rustversion"
 version = "1.0.12"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "4f3208ce4d8448b3f3e7d168a73f5e0c43a61e32930de3bceeccedb388b6bf06"
-
-[[package]]
-name = "rustyink"
-version = "0.0.9"
-dependencies = [
- "anyhow",
- "async-recursion",
- "axum",
- "chrono",
- "clap",
- "config",
- "directories",
- "fs_extra",
- "futures-util",
- "handlebars",
- "html-minifier",
- "md-5",
- "notify",
- "notify-debouncer-mini",
- "owo-colors",
- "pulldown-cmark",
- "rayon",
- "regex",
- "reqwest",
- "serde",
- "serde_json",
- "serde_yaml",
- "sitewriter",
- "slugify",
- "tokio",
- "tokio-tungstenite",
- "toml 0.7.5",
- "tower-http",
- "walkdir",
-]
 
 [[package]]
 name = "ryu"

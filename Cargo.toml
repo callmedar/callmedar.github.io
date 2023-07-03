@@ -1,9 +1,9 @@
 [package]
 name = "blog"
 version = "0.0.1"
-edition = "2023"
+edition = "2021"
 description = "Modivikasi Rustyink by Syuhendar"
-authors = ["Arjun Komath <arjunkomath@gmail.com>"]
+authors = ["Syuhada Rantisi <suadarantisi@gmail.com>"]
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/syuhendar729/blog"
 keywords = ["static", "site", "generator"]
