@@ -1,11 +1,11 @@
 [package]
-name = "rustyink"
-version = "0.0.9"
-edition = "2021"
-description = "Blazing fast static site generator"
+name = "blog"
+version = "0.0.1"
+edition = "2023"
+description = "Modivikasi Rustyink by Syuhendar"
 authors = ["Arjun Komath <arjunkomath@gmail.com>"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/arjunkomath/RustyInk"
+repository = "https://github.com/syuhendar729/blog"
 keywords = ["static", "site", "generator"]
 
 [dependencies]

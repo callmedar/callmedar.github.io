@@ -17,3 +17,5 @@ target/
 _site
 
 .DS_Store
+# Local Netlify folder
+.netlify
