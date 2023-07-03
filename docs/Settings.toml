@@ -12,14 +12,14 @@ style_urls = [
 [meta]
 title = "About this Site"
 description = "This site written in Rust, use rustyink as static site generator, and hosting in netlify. All konten create by writer with Neovim text editor via the Arch Linux operating system"
-og_image_url = "https://syuhendar729.github.io/blog/images/og.png"
-base_url = "https://syuhendar729.github.io/blog"
+og_image_url = "https://callmedar.github.io/blog/images/og.png"
+base_url = "https://callmedar.github.io"
 
 [navigation]
 links = [
-    { label = "Home", url = "./" },
-    { label = "About", url = "./about/" },
-    { label = "Blog", url = "./blog/" },
+    { label = "Home", url = "/" },
+    { label = "About", url = "/about/" },
+    { label = "Blog", url = "/blog/" },
     { label = "GitHub", url = "https://github.com/syuhendar729" },
     { label = "Instagram", url = "https://instagram.com/syuhendar729" },
 ]

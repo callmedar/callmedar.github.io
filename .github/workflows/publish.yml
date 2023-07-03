@@ -27,7 +27,7 @@ jobs:
     environment:
       name: github-pages
       # url: ${{ steps.deployment.outputs.page_url }}
-      url: https://syuhendar729.github.io/blog/_site
+      url: https://callmedar.github.io/_site
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
