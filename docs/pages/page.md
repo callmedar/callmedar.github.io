@@ -1,7 +1,7 @@
 > This site build in Rust ecosystem.
 <br>Use Rusty!nk as Static Site Generator. 
 <br>Hosting in GitHub Pages. 
-<br>What you see here written in Markdown file.
+<br>What you see here is the rendering of the Markdown file.
 <br>All content write by writer with Neovim text editor via the Artix Linux operating system.
 
 ```rust
