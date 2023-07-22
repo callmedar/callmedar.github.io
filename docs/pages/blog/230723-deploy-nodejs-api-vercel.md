@@ -3,7 +3,7 @@ template: post
 title: "Dokumentasi Mendeploy API Express dan Nodejs di Vercel"
 author: Syuhendar
 author_link: https://instagram.com/syuhendar729
-date_published: 8 Juli, 2023
+date_published: 23 Juli, 2023
 ---
 
 Pada halaman ini saya ingin berbagi kisah saya mengenai deploying sebuah aplikasi back-end di Vercel.
