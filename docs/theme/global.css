@@ -4,7 +4,7 @@
 
 [data-theme="dark"],
 :root:not([data-theme="light"]) {
-  /* --font-family: "Fira Sans", sans-serif; */
+  --font-family: "Comic Mono", sans-serif;
 	--background-color: #32302f;
 	--card-background-color: var(--background-color);
 	--card-box-shadow: none;
